@@ -3,27 +3,105 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		910915235CFD4AC3AD23340B /* Pods_MotivationManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB889976225001E9A781D43E /* Pods_MotivationManagement.framework */; };
 		D1CF2DCE24E4282100EE977A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2DCD24E4282100EE977A /* AppDelegate.swift */; };
 		D1CF2DD024E4282100EE977A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2DCF24E4282100EE977A /* SceneDelegate.swift */; };
-		D1CF2DD224E4282100EE977A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2DD124E4282100EE977A /* ViewController.swift */; };
 		D1CF2DD524E4282100EE977A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CF2DD324E4282100EE977A /* Main.storyboard */; };
 		D1CF2DD724E4282300EE977A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1CF2DD624E4282300EE977A /* Assets.xcassets */; };
 		D1CF2DDA24E4282300EE977A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CF2DD824E4282300EE977A /* LaunchScreen.storyboard */; };
+		D1CF2DE524E42C4000EE977A /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2DE424E42C4000EE977A /* CalendarViewController.swift */; };
+		D1CF2DE924E42E4A00EE977A /* icons8-calendar-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1CF2DE824E42E4A00EE977A /* icons8-calendar-50@2x.png */; };
+		D1CF2DEB24E42E5400EE977A /* tabbar-icon-mypage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1CF2DEA24E42E5400EE977A /* tabbar-icon-mypage@2x.png */; };
+		D1CF2DED24E42EB200EE977A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2DEC24E42EB200EE977A /* Post.swift */; };
+		D1CF2DEF24E42EBD00EE977A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2DEE24E42EBD00EE977A /* User.swift */; };
+		D1CF2DF124E42EF700EE977A /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2DF024E42EF700EE977A /* Comment.swift */; };
+		D1CF2DF324E430F600EE977A /* SimpleAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2DF224E430F600EE977A /* SimpleAlert.swift */; };
+		D1CF2DF824E4321F00EE977A /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2DF724E4321F00EE977A /* BorderButton.swift */; };
+		D1CF2DFA24E433D300EE977A /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CF2DF924E433D300EE977A /* SignIn.storyboard */; };
+		D1CF2DFC24E4387000EE977A /* OriginalTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2DFB24E4387000EE977A /* OriginalTabBarController.swift */; };
+		D1CF2E0324E449A300EE977A /* ConfigureShadowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E0224E449A300EE977A /* ConfigureShadowItem.swift */; };
+		D1CF2E0524E449DB00EE977A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E0424E449DB00EE977A /* SignUpViewController.swift */; };
+		D1CF2E0724E449FA00EE977A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E0624E449FA00EE977A /* SignInViewController.swift */; };
+		D1CF2E0924E44A6600EE977A /* PolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E0824E44A6600EE977A /* PolicyViewController.swift */; };
+		D1CF2E0B24E44A8600EE977A /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E0A24E44A8600EE977A /* TermsViewController.swift */; };
+		D1CF2E0E24E452A800EE977A /* TextFieldKeyBoardDone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E0D24E452A800EE977A /* TextFieldKeyBoardDone.swift */; };
+		D1CF2E1124E4539D00EE977A /* MotivationPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E0F24E4539D00EE977A /* MotivationPostTableViewCell.swift */; };
+		D1CF2E1224E4539D00EE977A /* MotivationPostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1CF2E1024E4539D00EE977A /* MotivationPostTableViewCell.xib */; };
+		D1CF2E1724E4553C00EE977A /* icons8-speech-bubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1CF2E1324E4553B00EE977A /* icons8-speech-bubble@2x.png */; };
+		D1CF2E1824E4553C00EE977A /* icons8-more-filled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1CF2E1424E4553B00EE977A /* icons8-more-filled@2x.png */; };
+		D1CF2E1924E4553C00EE977A /* icons8-heart-outline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1CF2E1524E4553C00EE977A /* icons8-heart-outline@2x.png */; };
+		D1CF2E1A24E4553C00EE977A /* icons8-heart-color@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1CF2E1624E4553C00EE977A /* icons8-heart-color@2x.png */; };
+		D1CF2E1D24E45BE700EE977A /* NoRecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E1B24E45BE700EE977A /* NoRecordTableViewCell.swift */; };
+		D1CF2E1E24E45BE700EE977A /* NoRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1CF2E1C24E45BE700EE977A /* NoRecordTableViewCell.xib */; };
+		D1CF2E2024E45FC500EE977A /* MyPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E1F24E45FC500EE977A /* MyPostViewController.swift */; };
+		D1CF2E2224E4619700EE977A /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E2124E4619700EE977A /* CommentViewController.swift */; };
+		D1CF2E2524E465BE00EE977A /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E2324E465BE00EE977A /* CommentTableViewCell.swift */; };
+		D1CF2E2624E465BE00EE977A /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1CF2E2424E465BE00EE977A /* CommentTableViewCell.xib */; };
+		D1CF2E2824E46BD700EE977A /* DetailCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E2724E46BD700EE977A /* DetailCommentViewController.swift */; };
+		D1CF2E3924E5BDE300EE977A /* UserPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E3824E5BDE300EE977A /* UserPostViewController.swift */; };
+		D1CF2E4A24E7EA0000EE977A /* ChartXAxisFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E4924E7EA0000EE977A /* ChartXAxisFormatter.swift */; };
+		D1CF2E4E24E80EA600EE977A /* LineChartTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E4D24E80EA600EE977A /* LineChartTimeViewController.swift */; };
+		D1CF2E5024E80FDB00EE977A /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E4F24E80FDB00EE977A /* DateValueFormatter.swift */; };
+		D1CF2E5224E8110900EE977A /* DemoBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E5124E8110900EE977A /* DemoBaseViewController.swift */; };
+		D1CF2E5424E828A100EE977A /* ChartInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E5324E828A100EE977A /* ChartInfo.swift */; };
+		D1CF2E5824E86DAA00EE977A /* LikePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2E5724E86DAA00EE977A /* LikePostViewController.swift */; };
+		D1CF2E6824E876DE00EE977A /* icons8_graph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1CF2E6724E876DE00EE977A /* icons8_graph@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D1CF2DCA24E4282100EE977A /* MotivationManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotivationManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF418E9A635708638F98EED /* Pods-MotivationManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotivationManagement.debug.xcconfig"; path = "Target Support Files/Pods-MotivationManagement/Pods-MotivationManagement.debug.xcconfig"; sourceTree = "<group>"; };
+		8BF288903956D367B5123A29 /* Pods-MotivationManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotivationManagement.release.xcconfig"; path = "Target Support Files/Pods-MotivationManagement/Pods-MotivationManagement.release.xcconfig"; sourceTree = "<group>"; };
+		D1CF2DCA24E4282100EE977A /* mentalCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mentalCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1CF2DCD24E4282100EE977A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1CF2DCF24E4282100EE977A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D1CF2DD124E4282100EE977A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D1CF2DD424E4282100EE977A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1CF2DD624E4282300EE977A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1CF2DD924E4282300EE977A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1CF2DDB24E4282300EE977A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1CF2DE424E42C4000EE977A /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		D1CF2DE824E42E4A00EE977A /* icons8-calendar-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-calendar-50@2x.png"; sourceTree = "<group>"; };
+		D1CF2DEA24E42E5400EE977A /* tabbar-icon-mypage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-mypage@2x.png"; sourceTree = "<group>"; };
+		D1CF2DEC24E42EB200EE977A /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		D1CF2DEE24E42EBD00EE977A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D1CF2DF024E42EF700EE977A /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		D1CF2DF224E430F600EE977A /* SimpleAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAlert.swift; sourceTree = "<group>"; };
+		D1CF2DF724E4321F00EE977A /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		D1CF2DF924E433D300EE977A /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		D1CF2DFB24E4387000EE977A /* OriginalTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalTabBarController.swift; sourceTree = "<group>"; };
+		D1CF2E0224E449A300EE977A /* ConfigureShadowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureShadowItem.swift; sourceTree = "<group>"; };
+		D1CF2E0424E449DB00EE977A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D1CF2E0624E449FA00EE977A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D1CF2E0824E44A6600EE977A /* PolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyViewController.swift; sourceTree = "<group>"; };
+		D1CF2E0A24E44A8600EE977A /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		D1CF2E0D24E452A800EE977A /* TextFieldKeyBoardDone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldKeyBoardDone.swift; sourceTree = "<group>"; };
+		D1CF2E0F24E4539D00EE977A /* MotivationPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationPostTableViewCell.swift; sourceTree = "<group>"; };
+		D1CF2E1024E4539D00EE977A /* MotivationPostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MotivationPostTableViewCell.xib; sourceTree = "<group>"; };
+		D1CF2E1324E4553B00EE977A /* icons8-speech-bubble@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-speech-bubble@2x.png"; sourceTree = "<group>"; };
+		D1CF2E1424E4553B00EE977A /* icons8-more-filled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-more-filled@2x.png"; sourceTree = "<group>"; };
+		D1CF2E1524E4553C00EE977A /* icons8-heart-outline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-heart-outline@2x.png"; sourceTree = "<group>"; };
+		D1CF2E1624E4553C00EE977A /* icons8-heart-color@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-heart-color@2x.png"; sourceTree = "<group>"; };
+		D1CF2E1B24E45BE700EE977A /* NoRecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoRecordTableViewCell.swift; sourceTree = "<group>"; };
+		D1CF2E1C24E45BE700EE977A /* NoRecordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoRecordTableViewCell.xib; sourceTree = "<group>"; };
+		D1CF2E1F24E45FC500EE977A /* MyPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPostViewController.swift; sourceTree = "<group>"; };
+		D1CF2E2124E4619700EE977A /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		D1CF2E2324E465BE00EE977A /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		D1CF2E2424E465BE00EE977A /* CommentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentTableViewCell.xib; sourceTree = "<group>"; };
+		D1CF2E2724E46BD700EE977A /* DetailCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCommentViewController.swift; sourceTree = "<group>"; };
+		D1CF2E3524E5AB6B00EE977A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		D1CF2E3624E5AB6B00EE977A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D1CF2E3824E5BDE300EE977A /* UserPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostViewController.swift; sourceTree = "<group>"; };
+		D1CF2E4924E7EA0000EE977A /* ChartXAxisFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartXAxisFormatter.swift; sourceTree = "<group>"; };
+		D1CF2E4D24E80EA600EE977A /* LineChartTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartTimeViewController.swift; sourceTree = "<group>"; };
+		D1CF2E4F24E80FDB00EE977A /* DateValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
+		D1CF2E5124E8110900EE977A /* DemoBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoBaseViewController.swift; sourceTree = "<group>"; };
+		D1CF2E5324E828A100EE977A /* ChartInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartInfo.swift; sourceTree = "<group>"; };
+		D1CF2E5724E86DAA00EE977A /* LikePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikePostViewController.swift; sourceTree = "<group>"; };
+		D1CF2E6724E876DE00EE977A /* icons8_graph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8_graph@2x.png"; sourceTree = "<group>"; };
+		DB889976225001E9A781D43E /* Pods_MotivationManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotivationManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +109,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				910915235CFD4AC3AD23340B /* Pods_MotivationManagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64892C191B8A382FAE16ADD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB889976225001E9A781D43E /* Pods_MotivationManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D1CF2DC124E4282100EE977A = {
 			isa = PBXGroup;
 			children = (
 				D1CF2DCC24E4282100EE977A /* MotivationManagement */,
 				D1CF2DCB24E4282100EE977A /* Products */,
+				FAA291075DC91DE4F2C3B0F6 /* Pods */,
+				64892C191B8A382FAE16ADD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		D1CF2DCB24E4282100EE977A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D1CF2DCA24E4282100EE977A /* MotivationManagement.app */,
+				D1CF2DCA24E4282100EE977A /* mentalCare.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +145,164 @@
 		D1CF2DCC24E4282100EE977A /* MotivationManagement */ = {
 			isa = PBXGroup;
 			children = (
-				D1CF2DCD24E4282100EE977A /* AppDelegate.swift */,
-				D1CF2DCF24E4282100EE977A /* SceneDelegate.swift */,
-				D1CF2DD124E4282100EE977A /* ViewController.swift */,
-				D1CF2DD324E4282100EE977A /* Main.storyboard */,
+				D1CF2DE624E42DF400EE977A /* Resources */,
+				D1CF2DE324E42BFF00EE977A /* Model */,
+				D1CF2DE224E42BF300EE977A /* View */,
+				D1CF2DE124E42BCE00EE977A /* Controller */,
 				D1CF2DD624E4282300EE977A /* Assets.xcassets */,
 				D1CF2DD824E4282300EE977A /* LaunchScreen.storyboard */,
 				D1CF2DDB24E4282300EE977A /* Info.plist */,
 			);
 			path = MotivationManagement;
+			sourceTree = "<group>";
+		};
+		D1CF2DE124E42BCE00EE977A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF2DCD24E4282100EE977A /* AppDelegate.swift */,
+				D1CF2DCF24E4282100EE977A /* SceneDelegate.swift */,
+				D1CF2E0124E4496E00EE977A /* SignIn */,
+				D1CF2E0C24E44AE400EE977A /* Calendar */,
+				D1CF2E2924E59AF200EE977A /* Chart */,
+				D1CF2E3724E5BBA000EE977A /* UserPage */,
+				D1CF2E5624E86D8900EE977A /* Like */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1CF2DE224E42BF300EE977A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF2DF424E4311800EE977A /* StoryBoard */,
+				D1CF2DF524E4319800EE977A /* TableViewCell */,
+				D1CF2DF624E431A800EE977A /* ViewModel */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1CF2DE324E42BFF00EE977A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF2DEC24E42EB200EE977A /* Post.swift */,
+				D1CF2E5324E828A100EE977A /* ChartInfo.swift */,
+				D1CF2DEE24E42EBD00EE977A /* User.swift */,
+				D1CF2DF024E42EF700EE977A /* Comment.swift */,
+				D1CF2DF224E430F600EE977A /* SimpleAlert.swift */,
+				D1CF2E0D24E452A800EE977A /* TextFieldKeyBoardDone.swift */,
+				D1CF2E4924E7EA0000EE977A /* ChartXAxisFormatter.swift */,
+				D1CF2E4F24E80FDB00EE977A /* DateValueFormatter.swift */,
+				D1CF2E5124E8110900EE977A /* DemoBaseViewController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1CF2DE624E42DF400EE977A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF2DE724E42DFB00EE977A /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D1CF2DE724E42DFB00EE977A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF2DE824E42E4A00EE977A /* icons8-calendar-50@2x.png */,
+				D1CF2DEA24E42E5400EE977A /* tabbar-icon-mypage@2x.png */,
+				D1CF2E1524E4553C00EE977A /* icons8-heart-outline@2x.png */,
+				D1CF2E1624E4553C00EE977A /* icons8-heart-color@2x.png */,
+				D1CF2E1324E4553B00EE977A /* icons8-speech-bubble@2x.png */,
+				D1CF2E1424E4553B00EE977A /* icons8-more-filled@2x.png */,
+				D1CF2E6724E876DE00EE977A /* icons8_graph@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D1CF2DF424E4311800EE977A /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF2DD324E4282100EE977A /* Main.storyboard */,
+				D1CF2DF924E433D300EE977A /* SignIn.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		D1CF2DF524E4319800EE977A /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF2E0F24E4539D00EE977A /* MotivationPostTableViewCell.swift */,
+				D1CF2E1024E4539D00EE977A /* MotivationPostTableViewCell.xib */,
+				D1CF2E1B24E45BE700EE977A /* NoRecordTableViewCell.swift */,
+				D1CF2E1C24E45BE700EE977A /* NoRecordTableViewCell.xib */,
+				D1CF2E2324E465BE00EE977A /* CommentTableViewCell.swift */,
+				D1CF2E2424E465BE00EE977A /* CommentTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		D1CF2DF624E431A800EE977A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF2DF724E4321F00EE977A /* BorderButton.swift */,
+				D1CF2DFB24E4387000EE977A /* OriginalTabBarController.swift */,
+				D1CF2E0224E449A300EE977A /* ConfigureShadowItem.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D1CF2E0124E4496E00EE977A /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF2E0424E449DB00EE977A /* SignUpViewController.swift */,
+				D1CF2E0624E449FA00EE977A /* SignInViewController.swift */,
+				D1CF2E0824E44A6600EE977A /* PolicyViewController.swift */,
+				D1CF2E0A24E44A8600EE977A /* TermsViewController.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		D1CF2E0C24E44AE400EE977A /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF2DE424E42C4000EE977A /* CalendarViewController.swift */,
+				D1CF2E1F24E45FC500EE977A /* MyPostViewController.swift */,
+				D1CF2E2124E4619700EE977A /* CommentViewController.swift */,
+				D1CF2E2724E46BD700EE977A /* DetailCommentViewController.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		D1CF2E2924E59AF200EE977A /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF2E4D24E80EA600EE977A /* LineChartTimeViewController.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		D1CF2E3724E5BBA000EE977A /* UserPage */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF2E3824E5BDE300EE977A /* UserPostViewController.swift */,
+			);
+			path = UserPage;
+			sourceTree = "<group>";
+		};
+		D1CF2E5624E86D8900EE977A /* Like */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF2E5724E86DAA00EE977A /* LikePostViewController.swift */,
+			);
+			path = Like;
+			sourceTree = "<group>";
+		};
+		FAA291075DC91DE4F2C3B0F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CF418E9A635708638F98EED /* Pods-MotivationManagement.debug.xcconfig */,
+				8BF288903956D367B5123A29 /* Pods-MotivationManagement.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1CF2DDE24E4282300EE977A /* Build configuration list for PBXNativeTarget "MotivationManagement" */;
 			buildPhases = (
+				1E5588B7C0B4C7C860BE0E85 /* [CP] Check Pods Manifest.lock */,
 				D1CF2DC624E4282100EE977A /* Sources */,
 				D1CF2DC724E4282100EE977A /* Frameworks */,
 				D1CF2DC824E4282100EE977A /* Resources */,
+				4634F3C44130572E864CA48D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +324,7 @@
 			);
 			name = MotivationManagement;
 			productName = MotivationManagement;
-			productReference = D1CF2DCA24E4282100EE977A /* MotivationManagement.app */;
+			productReference = D1CF2DCA24E4282100EE977A /* mentalCare.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,6 +349,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = D1CF2DC124E4282100EE977A;
 			productRefGroup = D1CF2DCB24E4282100EE977A /* Products */;
@@ -127,20 +368,98 @@
 			files = (
 				D1CF2DDA24E4282300EE977A /* LaunchScreen.storyboard in Resources */,
 				D1CF2DD724E4282300EE977A /* Assets.xcassets in Resources */,
+				D1CF2E6824E876DE00EE977A /* icons8_graph@2x.png in Resources */,
+				D1CF2E1724E4553C00EE977A /* icons8-speech-bubble@2x.png in Resources */,
+				D1CF2E1224E4539D00EE977A /* MotivationPostTableViewCell.xib in Resources */,
+				D1CF2E2624E465BE00EE977A /* CommentTableViewCell.xib in Resources */,
+				D1CF2E1924E4553C00EE977A /* icons8-heart-outline@2x.png in Resources */,
 				D1CF2DD524E4282100EE977A /* Main.storyboard in Resources */,
+				D1CF2E1A24E4553C00EE977A /* icons8-heart-color@2x.png in Resources */,
+				D1CF2E1824E4553C00EE977A /* icons8-more-filled@2x.png in Resources */,
+				D1CF2DE924E42E4A00EE977A /* icons8-calendar-50@2x.png in Resources */,
+				D1CF2E1E24E45BE700EE977A /* NoRecordTableViewCell.xib in Resources */,
+				D1CF2DFA24E433D300EE977A /* SignIn.storyboard in Resources */,
+				D1CF2DEB24E42E5400EE977A /* tabbar-icon-mypage@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E5588B7C0B4C7C860BE0E85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MotivationManagement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4634F3C44130572E864CA48D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MotivationManagement/Pods-MotivationManagement-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MotivationManagement/Pods-MotivationManagement-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MotivationManagement/Pods-MotivationManagement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D1CF2DC624E4282100EE977A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1CF2DD224E4282100EE977A /* ViewController.swift in Sources */,
+				D1CF2DE524E42C4000EE977A /* CalendarViewController.swift in Sources */,
+				D1CF2DF124E42EF700EE977A /* Comment.swift in Sources */,
 				D1CF2DCE24E4282100EE977A /* AppDelegate.swift in Sources */,
+				D1CF2E3924E5BDE300EE977A /* UserPostViewController.swift in Sources */,
+				D1CF2E0324E449A300EE977A /* ConfigureShadowItem.swift in Sources */,
+				D1CF2E1D24E45BE700EE977A /* NoRecordTableViewCell.swift in Sources */,
+				D1CF2E0B24E44A8600EE977A /* TermsViewController.swift in Sources */,
+				D1CF2E5824E86DAA00EE977A /* LikePostViewController.swift in Sources */,
+				D1CF2E1124E4539D00EE977A /* MotivationPostTableViewCell.swift in Sources */,
+				D1CF2E2524E465BE00EE977A /* CommentTableViewCell.swift in Sources */,
+				D1CF2E0E24E452A800EE977A /* TextFieldKeyBoardDone.swift in Sources */,
+				D1CF2E2824E46BD700EE977A /* DetailCommentViewController.swift in Sources */,
+				D1CF2E0724E449FA00EE977A /* SignInViewController.swift in Sources */,
+				D1CF2E0924E44A6600EE977A /* PolicyViewController.swift in Sources */,
+				D1CF2E4E24E80EA600EE977A /* LineChartTimeViewController.swift in Sources */,
+				D1CF2DFC24E4387000EE977A /* OriginalTabBarController.swift in Sources */,
+				D1CF2E5424E828A100EE977A /* ChartInfo.swift in Sources */,
+				D1CF2E4A24E7EA0000EE977A /* ChartXAxisFormatter.swift in Sources */,
+				D1CF2E0524E449DB00EE977A /* SignUpViewController.swift in Sources */,
+				D1CF2E5224E8110900EE977A /* DemoBaseViewController.swift in Sources */,
+				D1CF2E5024E80FDB00EE977A /* DateValueFormatter.swift in Sources */,
 				D1CF2DD024E4282100EE977A /* SceneDelegate.swift in Sources */,
+				D1CF2DF324E430F600EE977A /* SimpleAlert.swift in Sources */,
+				D1CF2DEF24E42EBD00EE977A /* User.swift in Sources */,
+				D1CF2DED24E42EB200EE977A /* Post.swift in Sources */,
+				D1CF2E2024E45FC500EE977A /* MyPostViewController.swift in Sources */,
+				D1CF2DF824E4321F00EE977A /* BorderButton.swift in Sources */,
+				D1CF2E2224E4619700EE977A /* CommentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +470,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D1CF2DD424E4282100EE977A /* Base */,
+				D1CF2E3524E5AB6B00EE977A /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +479,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D1CF2DD924E4282300EE977A /* Base */,
+				D1CF2E3624E5AB6B00EE977A /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +491,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +552,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -282,16 +605,18 @@
 		};
 		D1CF2DDF24E4282300EE977A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF418E9A635708638F98EED /* Pods-MotivationManagement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MotivationManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomotaka.MotivationManagement;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = mentalCare;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,16 +624,18 @@
 		};
 		D1CF2DE024E4282300EE977A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BF288903956D367B5123A29 /* Pods-MotivationManagement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MotivationManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomotaka.MotivationManagement;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = mentalCare;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

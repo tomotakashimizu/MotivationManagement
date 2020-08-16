@@ -1,0 +1,45 @@
+
+/* Class = "UIBarButtonItem"; title = "Toggle"; ObjectID = "180-gU-MQf"; */
+"180-gU-MQf.title" = "Toggle";
+
+/* Class = "UIBarButtonItem"; title = "戻る"; ObjectID = "1Qq-8x-c0u"; */
+"1Qq-8x-c0u.title" = "戻る";
+
+/* Class = "UIButton"; normalTitle = "コメントを更新する"; ObjectID = "FDO-YJ-yQP"; */
+"FDO-YJ-yQP.normalTitle" = "コメントを更新する";
+
+/* Class = "UITabBarItem"; title = "カレンダー"; ObjectID = "G2b-y7-YNe"; */
+"G2b-y7-YNe.title" = "カレンダー";
+
+/* Class = "UIViewController"; title = "FSCalendarScopeExample"; ObjectID = "KFD-VY-uSa"; */
+"KFD-VY-uSa.title" = "FSCalendarScopeExample";
+
+/* Class = "UIBarButtonItem"; title = "記録する"; ObjectID = "Rg5-q2-79G"; */
+"Rg5-q2-79G.title" = "記録する";
+
+/* Class = "UINavigationItem"; title = "FSCalendar"; ObjectID = "Rvp-rN-KSy"; */
+"Rvp-rN-KSy.title" = "FSCalendar";
+
+/* Class = "UINavigationItem"; title = "コメント"; ObjectID = "cEq-y9-oZO"; */
+"cEq-y9-oZO.title" = "コメント";
+
+/* Class = "UIBarButtonItem"; title = "キャンセル"; ObjectID = "eGZ-ah-bO9"; */
+"eGZ-ah-bO9.title" = "キャンセル";
+
+/* Class = "UINavigationItem"; title = "(選択されている)日付"; ObjectID = "mcq-2K-DRC"; */
+"mcq-2K-DRC.title" = "(選択されている)日付";
+
+/* Class = "UINavigationItem"; title = "コメントの編集"; ObjectID = "pEd-H1-G2F"; */
+"pEd-H1-G2F.title" = "コメントの編集";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "q6P-eH-Hpn"; */
+"q6P-eH-Hpn.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "グラフ"; ObjectID = "sGR-bZ-MA4"; */
+"sGR-bZ-MA4.title" = "グラフ";
+
+/* Class = "UITabBarItem"; title = "マイページ"; ObjectID = "tCN-Ee-EeJ"; */
+"tCN-Ee-EeJ.title" = "マイページ";
+
+/* Class = "UILabel"; text = "該当日の日記はまだありません。"; ObjectID = "vOQ-9e-fn8"; */
+"vOQ-9e-fn8.text" = "該当日の日記はまだありません。";
